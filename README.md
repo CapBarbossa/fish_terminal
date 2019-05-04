@@ -2,7 +2,7 @@
 # fish_terminal
 fish终端的配置文件;目前算是比较满意的一款配置,可以显示git分支;已经在kali上稳定运行一段时间了.
 终端种类的选择设置都是针对单个账户的,比如root可以选用fish作为默认登录shell,bro账户可以选择/bin/bash作为默认登录shell;互不影响,这个性质在多用户的服务器上面特别使用,修改自己账户钟爱的shell,并不会影响同事的使用.
-修改默认shell: chsh -s /usr/bin/fish
+修改默认shell: chsh -s /usr/bin/fish  #注意,不能够加sudo, 因为这个只是对当前用户生效,加上以后,改变的就是超级权限用户了.
 查看当前自己的shell: $SHELL 	所有可用的shell信息都放在/etc/shells文件中.
 
 
