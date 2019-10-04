@@ -12,8 +12,13 @@
 ## fish的配置文件位置
 	`~/.config/fish`
 按照前面安装的方法安装完fish终端以后, fish还不是如我们所愿的样子,还需要将配置文件下载到相应位置, 怎么做呢? 如下:
-	
-	
+```shell
+cd ~/.config
+git clone https://github.com/CapBarbossa/fish_terminal.git
+rm -rf ~/.config/fish
+mv ~/.config/fish_terminal ~/.config/fish
+```
+
 	
 	
 	
